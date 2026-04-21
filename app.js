@@ -52,9 +52,14 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // ========== typed js  =================== //
 const typed = new Typed('.multiple-text', {
-    strings: ['FullStack Developer', 'Technical Writer', 'Applicatioins Developer'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: [
+        'AI-Powered Applications',
+        'Full-Stack Web Apps',
+        'UI/UX Experiences',
+        'Data-Driven Solutions'
+    ],
+    typeSpeed: 80,
+    backSpeed: 80,
     backDelay: 1000,
     loop: true,
-})
+});
